@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    text-align: center;
+    
+}
+
+
+p {
+color: #fffdfa;
+font-size: 200%;
+} 
+
+
+
+#navbar 
+ {
+    height: 30px;
+    background-color: forestgreen;
+    border-color: forestgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+
+#navbar a
+{
+font-size: 25px;
+color: black;
+text-decoration: none;
+}
+
+#navbar a:hover
+{
+color: #fffdfa;}
+
+
+
+
+
+
+
+
+
+
+
+#navbar2 a:hover
+{
+color: #2f332d;
+}
