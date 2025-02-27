@@ -75,7 +75,7 @@ color: #fffdfa;}
 
     .image {
         width: 200px; /* Make images responsive */
-        height: auto;
+        height: 150.px;
     }
 
     button {
