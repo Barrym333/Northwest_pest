@@ -21,6 +21,7 @@ justify-content: space-around;
     background-color: forestgreen;
     border-color: forestgreen;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: start;
 }
@@ -42,60 +43,93 @@ color: #fffdfa;}
 
 
 
-@media screen and (max-width: 300px) {
+
+@media screen and (max-width: 600px) {
     body {
-        font-size: 16px;
+        font-size: 10px;
         padding: 10px;
+        background-color: chartreuse;
     }
 
-    .container {
+    /* .container {
         width: 100%;
         padding: 10px;
-    }
+    } */
 
-    nav {
-        display: flex;
+    /* nav {
+        display: block;
         flex-direction: column;
         align-items: center;
+        gap: 10px; /* Adds space between items
         width: 200px; /* Make images responsive */
-        height: 100px;
-    }
+        /* height: 200px;
+        } */ */
 
+
+        /* nav a {
+            display: block;
+            padding: 12px 20px;
+            font-size: 16px;
+        } */
+
+
+/* 
     nav ul {
         padding: 0;
         list-style: none;
-    }
+    } */
 
-    nav ul li {
+    /* nav ul li {
         display: block;
         margin: 10px 0;
-    }
+    } */
 
-    .content {
+    /* .content {
         text-align: center;
-    }
+    } */
 
-    .image {
+    /* .image {
         width: 200px; /* Make images responsive */
-        height: 150px;
+        /* height: 150px;
         align-items: center;
-    }
+    } */ */
 
-    button {
+    /* button {
         width: 100%;
         padding: 10px;
         font-size: 18px;
-    }
+    } */
 
      .banner main {
-        width: 200px; /* Make images responsive */
-        height: 150px;
+        /* #makes images responsive */
+        width: 200px; 
+          }
 
-     }
+     
 
      img {
         max-width: 100%;  /* Ensures the image doesn't exceed its container */
         height: auto;     /* Keeps the aspect ratio */
         display: block;   /* Removes extra spacing issues */
     }
-}
+
+    
+        #navbar {
+            flex-direction: column; 
+           /* Increase spacing on smaller screens */
+            /* gap: 5px;  */
+            background-color: pink;
+            height: 75px;
+            /* align-items: flex-start; */
+        }
+
+
+        #navbar a{
+             font-size: 10px;
+             padding: 0px;
+        }
+        
+        /* nav ul li {
+            padding: 12px 0;
+        } */
+    }
