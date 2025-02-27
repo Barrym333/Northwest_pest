@@ -4,14 +4,7 @@ body {
     
 }
 
-.wrapper-main {
-width: 1000px;
-padding: 100px 0;
-margin: 0auto;
-border: black;
-display: flex;
-justify-content: space-around;
-}
+
 
 p {
 color: #fffdfa;
@@ -49,12 +42,45 @@ color: #fffdfa;}
 
 
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
 
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    nav ul {
+        padding: 0;
+        list-style: none;
+    }
 
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 
-#navbar2 a:hover
-{
-color: #2f332d;
+    .content {
+        text-align: center;
+    }
+
+    .image {
+        width: 100%; /* Make images responsive */
+        height: auto;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+    }
 }
