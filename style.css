@@ -42,7 +42,7 @@ color: #fffdfa;}
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 300px) {
     body {
         font-size: 16px;
         padding: 10px;
@@ -85,5 +85,17 @@ color: #fffdfa;}
         width: 100%;
         padding: 10px;
         font-size: 18px;
+    }
+
+     .banner main {
+        width: 200px; /* Make images responsive */
+        height: 150px;
+
+     }
+
+     img {
+        max-width: 100%;  /* Ensures the image doesn't exceed its container */
+        height: auto;     /* Keeps the aspect ratio */
+        display: block;   /* Removes extra spacing issues */
     }
 }
